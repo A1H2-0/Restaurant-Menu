@@ -32,11 +32,11 @@ createRoot(document.getElementById("root")).render(
       </button>
     </header>
     <div className=" bg-[#F8F9FA] bg-[url('public/Container.png')] bg-no-repeat flex justify-center items-center h-[921.5900268554688px]">
-      <div className="container w-[690px] h-[773px] flex flex-col gap-6">
+      <div className="container w-[690px] h-[773px] flex flex-col gap-11">
         <h5 className="text-[#FF6B35] bg-[#FF6B351A] w-[170px] rounded-[15px] pl-[8px] font-[Poppins]">
           THE ART OF DINING
         </h5>
-        <h1 className="w-[645px] font-[Poppins] text-[72px] text-[#FFFFFF] leading-tight">
+        <h1 className="w-[645px] font-[Poppins] text-[72px] text-[#FFFFFF] leading-20">
           Elevated culinary <span className="text-[#FF6B35]">experiences</span>
           for every palate.
         </h1>
@@ -44,12 +44,25 @@ createRoot(document.getElementById("root")).render(
           Discover a symphony of flavors crafted with locally sourced
           ingredients and exceptional passion.
         </h4>
-
-        <button className="w-[192px] bg-[#FF6B35] flex justify-center items-center gap-2 text-[#FFFFFF] p-2 rounded-[15px]">
-          <img src="public/Menu.png" alt="" />
-          View Menu
-        </button>
-        <button></button>
+        <div className="buttons flex gap-4">
+          <button className="w-[160px] bg-[#FF6B35] flex justify-center items-center gap-2 text-[#FFFFFF] p-2 rounded-[10px]">
+            <img src="public/Menu.png" alt="" />
+            View Menu
+          </button>
+          <button className="w-[180px] bg-[#FFFFFF33] flex justify-center items-center gap-2 text-[#FFFFFF] p-1 rounded-[10px]">
+            <img src="public/Calender.png" alt="" />
+            Book a Table
+          </button>
+        </div>
+        <div className="flex gap-4 mt-[25px] items-center">
+          <img src="public/persons.png" alt="" />
+          <h3 className="">
+            <span className="text-[#FFFFFF]">4.9/5</span>
+            <span className="text-[#E5E7EB]">
+              from over 2,000+ happy diners
+            </span>
+          </h3>
+        </div>
       </div>
     </div>
   </>,
