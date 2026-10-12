@@ -65,5 +65,78 @@ createRoot(document.getElementById("root")).render(
         </div>
       </div>
     </div>
+    <div className="bg-[#FFFFFF] flex justify-center">
+      <div className="w-[1216px] flex justify-center items-center gap-[80px] mt-[128px]">
+        <div className="relative w-[568px] h-[710px]">
+          <img
+            src="public/Professional chef carefully garnishing a gourmet plate in a high-end kitchen, close-up, shallow depth of field.png"
+            alt=""
+            className="w-[568px] h-[710px]"
+          />
+          <div class="absolute bottom-7 right-3 bg-[#202020] text-white w-40 p-4 flex flex-col justify-center rounded-[15px]">
+            <h2 class="text-2xl font-bold leading-none">15+</h2>
+
+            <p class="text-[9px] tracking-[2px] text-gray-400 mt-2 whitespace-nowrap">
+              YEARS OF EXCELLENCE
+            </p>
+          </div>
+        </div>
+        <div className="w-[568px] flex flex-col gap-[30px]">
+          <h1 className="font-[Poppins] text-[48px] w-[568px leading-[60px]">
+            Crafting stories on every plate since{" "}
+            <span className="text-[#FF6B35]">2008</span>.
+          </h1>
+          <h2 className="text-[#6B7280] text-[18px] ">
+            Gourmet Bistro was born from a simple vision: to create a space
+            where culinary excellence meets genuine hospitality. Our journey
+            began in a small kitchen with big dreams, focusing on the purity of
+            ingredients and the joy of shared meals.
+          </h2>
+          <h2 className="text-[#6B7280] text-[18px] ">
+            Today, we continue that legacy, blending traditional techniques with
+            modern innovation to bring you a menu that celebrates the best of
+            the season.
+          </h2>
+          <div className="flex gap-[70px]">
+            <div className="flex items-center gap-[10px]">
+              <div className="w-[40px] h-[40px] bg-[#FF6B351A] flex items-center justify-center rounded-[15px]">
+                <img
+                  src="public/leave.png"
+                  alt=""
+                  className="h-[24px] w-[24px] "
+                />
+              </div>
+
+              <div className="flex flex-col">
+                <h1 className="font-bold font-[Poppins] font-[16px]">
+                  Fresh Harvest
+                </h1>
+                <h2 className="w-[152.72000122070312px] text-[#6B7280] font-[Poppins]">
+                  Daily sourced organic ingredients.
+                </h2>
+              </div>
+            </div>
+            <div className="flex items-center gap-[10px]">
+              <div className="w-[40px] h-[40px] bg-[#FF6B351A] flex items-center justify-center rounded-[15px]">
+                <img
+                  src="public/medal.png"
+                  alt=""
+                  className="h-[20px] w-[12px] "
+                />
+              </div>
+
+              <div className="flex flex-col">
+                <h1 className="font-bold font-[Poppins] font-[16px]">
+                  Expert Chefs
+                </h1>
+                <h2 className="w-[212px] text-[#6B7280] font-[Poppins]">
+                  Award-winning culinary team.
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </>,
 );
