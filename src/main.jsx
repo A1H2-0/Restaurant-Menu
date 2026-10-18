@@ -1,4 +1,4 @@
-import Beautifull from "src/assets/Beautifully crafted colorful cocktail with fruit garnish and ice, professional product photography.png";
+import Beautifull from "src/assets/beautifull.png";
 import calender from "src/assets/Calender.png";
 import close from "src/assets/Close-up of a stylish restaurant lounge area with velvet chairs and modern art.png";
 import container from "src/assets/Container.png";
