@@ -19,7 +19,7 @@ import { SVG } from "src/assets/SVG.png";
 import { tele } from "src/assets/tele.png";
 import { topdown } from "src/assets/Top-down view of a perfectly cooked medium-rare steak with rosemary and roasted vegetables on a white plate.png";
 import { twitter } from "src/assets/twitter.png";
-import { vector1 } from "src/assets/Vector (1).png";
+import { vector1 } from "src/assets/Vector1.png";
 import { vector } from "src/assets/Vector.png";
 import { createRoot } from "react-dom/client";
 import "./index.css";
